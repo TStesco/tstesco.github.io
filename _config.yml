@@ -1,52 +1,39 @@
 # Site settings
-title: Louis Rassaby
-description: Musings in software, UX, and music.
+title: tstesco
+description: Some projects and thoughts on buildings, tech, and our cybernetic lives.
 
-url: http://rassaby.com
+url: http://tstesco.github.io
 
 about_title: Contact
-projects_title: Musings
+projects_title: Projects and Posts
 
 # User settings
 user_description_appendix: |
-  This site is built in [Jekyll][jekyll] and hosted on [Github Pages][gh-pages]. If you like it, feel free to fork it on
-  [Github][github].
+  My main interests are in systems that combine intelligent machines and living things, such as plants and animals. 
+  I'm currently researching how we can make adaptive control systems for heating and cooling of buildings.
 
-  [github]: https://github.com/lrassaby/lrassaby.github.io
-  [gh-pages]: https://pages.github.com/
-  [jekyll]: https://jekyllrb.com
+email: tom.stesco@gmail.com
+linkedin: tom-stesco-933204111
+github: tstesco
+angellist: tstesco
 
+relevant_tags: ['hardware', 'software', 'cybernetics']
 
-email: louis@rassaby.com
-linkedin: lrassaby
-github: lrassaby
-angellist: rassaby
+resume_url: #https://drive.google.com/open?id=0B5vVg0C4jFacXzJ4b09XZmw2amc
 
-relevant_tags: ['tech', 'design', 'music']
-
-resume_url: https://drive.google.com/open?id=0B5vVg0C4jFacXzJ4b09XZmw2amc
-
-author: Louis Rassaby
-author_title: Software Developer
+author: Tom Stesco
+author_title: Integrate Building Systems MSc Candidate, ETH Zürich
 author_photo: profile-photo.jpg
 user_description_short: |
-  My name is Louis Rassaby. I'm a software engineer, entrepreneur, and cellist based in Brooklyn. My preferred language is
-  [Scala][scala].
-
-  Away from the keyboard, I make food and music. I play a weekly jazz cello gig with my friends at Caffe Vivaldi in the
-  West Village. I'm half of a band called [Cellolele][cellolele].
-
-  [scala]: https://www.scala-lang.org/
-  [cellolele]: http://cellolele.com/
-
+  Hi! My name is Tom Stesco, I'm an engineer originally from Toronto, Canada. I graduated from University of Waterloo and now live in Zürich, Switzerland pursuing a MSc degree in Integrated Building Systems at ETH.
 
 ## Disqus
-disqus_identifier: rassaby
+#disqus_identifier: xxxx
 
 ## Tracker
-google_analytics_id: UA-109461282-1
+google_analytics_id: xxxxx
 
-keywords: 'software,engineer,design,scala,cello,music'
+keywords: 'software,hardware,engineer,cybernetics,buildings,cities,design,'
 
 ## URLs
 permalink: ':title/'

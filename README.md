@@ -1,6 +1,6 @@
-# Louis Rassaby - Personal Website
+# Tom Stesco - personal projects website
 
-[Visit the site here.](http://rassaby.com/)
+Personal website and blog built using Jekyll and hosted on github-pages, [visit the site here](http://tstesco.github.io).
 
 Tested with:
 - Node v8.0.0
@@ -13,14 +13,15 @@ If you're using NVM, this will get you to the right Node/NPM versions:
 nvm use v8.0.0
 ```
 
+You will need to intall some additional tools:
+```$bash
+apt-get install ruby-dev
+npm install gulp -g
+```
+
 To run:
 ```$bash
 bundle install
 npm install
 bundle exec gulp
 ```
-
-Inspired by
-- [Adam Blog](https://github.com/artemsheludko/adam-blog/)
-- [Isotope](https://isotope.metafizzy.co/)
-- [Jekyll](https://github.com/jekyll/jekyll/)
