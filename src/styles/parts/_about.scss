@@ -7,15 +7,15 @@
 .about-container {
   margin: 5em auto 0;
   position: relative;
-  text-align: center;
+  text-align: left;
   padding-bottom: 30px;
 
   p {
     color: $dark-purple;
     font-weight: 300;
   }
-  width: 80%;
-  max-width: 800px;
+  width: 95%;
+  max-width: 1200px;
   min-width: 300px;
 }
 
