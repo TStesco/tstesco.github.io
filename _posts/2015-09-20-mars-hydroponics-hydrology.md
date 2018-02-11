@@ -23,14 +23,14 @@ The experimental Mars hydroponic system is a small-scale hydrologic testing appa
 </p>
 
 <div style="text-align: center;">
-{% include captioned-image.html url="finishedConstruction-min.jpg" description="Fig 1: Experimental mars hydroponic system" style="height: 500px;" %}
+{% include captioned-image.html url="finishedConstruction-min.jpg" description="Fig 1: Experimental mars hydroponic system" style="height: auto; width: auto; max-height: 700px;" %}
 </div>
 
 
 The system was rigged with internal sensors for: air temperature/humidity, water termperature, soil moisture, and three ultrasonic distance sensors for water level. The specifications for these sensors is presented in the table below. These sensors were controlled by an arduino-like microcontroller (analgous to the leonardo) which took readings from all 5 sensors every 2 seconds and printed the output to the serial port. The serial output was saved to a .csv file every half-hour (900 readings) on a data logging computer running Linux Ubuntu 14.04 and a serial port reading/.csv writing script in Processing which can be found on [Github][github].
 
 <div style="text-align: center;">
-{% include captioned-image.html url="marsHydroConstruction-min.png" description="Fig 2: Sensor wiring of Mars hydroponic system" style="height: 500px;" %}
+{% include captioned-image.html url="marsHydroConstruction-min.png" description="Fig 2: Sensor wiring of Mars hydroponic system" style="height: auto; width: auto; max-height: 700px;" %}
 </div>
 <span class="caption text-muted"><strong>Table 1: Sensor Specifications</strong></span>
 <table>
@@ -76,13 +76,13 @@ The system was rigged with internal sensors for: air temperature/humidity, water
 
 
 <div style="text-align: center;">
-{% include captioned-image.html url="PlantAreaDay1-min.png" description="Fig 3: Lettuce seedlings after transplanting into system" style="height: 500px;" %}
+{% include captioned-image.html url="PlantAreaDay1-min.png" description="Fig 3: Lettuce seedlings after transplanting into system" style="height: auto; width: auto; max-height: 700px;" %}
 </div>
 <p>
     During experiment we found that of the initial volume of water that was rained onto the lettuce seedlings the bulk flowed through the soil. The rest ranoff quickly during the short rain event and returned to the main reservoir. The infiltration reservoir then filled slowly and eventually refilled the main reservoir. The total of all three reservoirs represents all water in the system minus the amount within the soil.
 </p>
 <div style="text-align: center;">
-{% include captioned-image.html url="graph1.png" description="Fig 4: Graph showing all three reservoir volumes during simulated rain event" style="height: 500px;" %}
+{% include captioned-image.html url="graph1.png" description="Fig 4: Graph showing all three reservoir volumes during simulated rain event" style="height: auto; width: auto; max-height: 700px;" %}
 </div>
 
 [github]: https://github.com/TStesco/mars-hydroponics-datalogger

@@ -12,7 +12,7 @@ I have since first finding out about it in 2012 been interested in [aquaponics][
 <h2 class="section-heading">System 1</h2>
 <p>The first UW Aquaponics system was a proof of concept system built a few years before I joined the team and was continued as a legacy system. It underwent a few modifications but was an inexpensive flood and drain system that had an aquarium, sump tank, and hydroponic tank filled with expanded clay.</p>
 <div style="text-align: center;">
-{% include captioned-image.html url="system_1.jpg" description="Fig 1: Aquaponic system 1 in 2016, flood and drain grow bed with bell siphon." style="height: 500px;" %}
+{% include captioned-image.html url="system_1.jpg" description="Fig 1: Aquaponic system 1 in 2016, flood and drain grow bed with bell siphon." style="height: auto; width: auto; max-height: 700px;" %}
 </div>
 
 <p>The water traveled from the fish tank to the sump tank (this balanced the water level change from the flood and drain hydroponic tank) then was pumped up to the grow bed (see figure below 2) where the plants would uptake the nitrate and other nutrients. Finally the water would be drained to the fish tank and be aerated.</p>
@@ -22,7 +22,7 @@ I have since first finding out about it in 2012 been interested in [aquaponics][
 <p>After a several years of operation the system had many calcium deposits from the hard Waterloo tap water we were using, but this denoted a larger problem. The water was too basic for the plants. With the pH near 8 we weren't growing much. We decided the best way to solve this issue was to use a reverse osmosis filter for the system water (see figure below).</p>
 
 <div style="text-align: center;">
-{% include captioned-image.html url="reverse_osmosis.jpg" description="Fig 2: Under-sink reverse osmosis filter." style="height: 500px;" %}
+{% include captioned-image.html url="reverse_osmosis.jpg" description="Fig 2: Under-sink reverse osmosis filter." style="height: auto; width: auto; max-height: 500px;" %}
 </div>
 
 <p>The reverse osmosis filter tapped into the drinking water pipe to the sink in the lab and produced water that had extremely low total dissolved solids. The water was filtered very slowly so it took a long time to accumulate even 1 liter, but because such little water is used by the system this was not an issue.</p>               
@@ -33,12 +33,12 @@ I have since first finding out about it in 2012 been interested in [aquaponics][
 <p>System 2 was designed to be a mobile aquaponics book shelf that we could wheel around for demonstrations on campus. It consisted of a: fish tank, biofilter, hydroponic tank, light fixture, pump, air blower, tubing, and wooden frame on casters. (see figure below).</p>
 
 <div style="text-align: center;">
-{% include captioned-image.html url="system_2_1.jpg" description="Fig 3: Aquaponic system 2 in 2016." style="height: 500px;" %}
+{% include captioned-image.html url="system_2_1.jpg" description="Fig 3: Aquaponic system 2 in 2016." style="height: auto; width: auto; max-height: 700px;" %}
 </div>
 
 <p>The water traveled from the fish tank to the biofilter (which was a compartment in the lower tank that was filled with expanded clay pellets) then was pumped up to the deep water hydroponic tank where the plants (siting in mesh pots on a floating raft) would uptake the nitrate and other nutrients. Finally the water would be drained to the fish tank and be aerated.</p>
 <div style="text-align: center;">
-{% include captioned-image.html url="system_2_2.jpg" description="Fig 4: Deep water culture grow bed with plants on floating rafts." style="height: 500px;" %}
+{% include captioned-image.html url="system_2_2.jpg" description="Fig 4: Deep water culture grow bed with plants on floating rafts." style="height: auto; width: auto; max-height: 700px;" %}
 </div>
 
 <h3 class="section-heading">Issue: custom built tanks</h3>
@@ -48,17 +48,17 @@ I have since first finding out about it in 2012 been interested in [aquaponics][
 <h2 class="section-heading">System 3</h2>
 <p>This system was designed for modularity and ease of assembly. It had to fit into a lab space provided in the Aquatic Animals Research Facility on campus and be disassembled for transport to demonstrations off campus. We used premade plastic tanks and steel racking and a swirl filter for solid waste made from a food safe bucket (see figure 8 below).</p>
 <div style="text-align: center;">
-{% include captioned-image.html url="system_3_1.jpg" description="Fig 5: System 3 components on steel rack." style="height: 500px;" %}
+{% include captioned-image.html url="system_3_1.jpg" description="Fig 5: System 3 components on steel rack." style="height: auto; width: auto; max-height: 700px;" %}
 </div>
 
 <p>The two upper hydroponic tanks were to be one deep water culture and one flood and drain (with bell siphon) to show the difference between techniques. We installed the pipe fittings and connections but found that assembly was more difficult than imagined.</p>
 
 <div style="text-align: center;">
-{% include captioned-image.html url="system_3_3.jpg" description="Fig 6: Water seal testing of system 3 pipe system." style="height: 500px;" %}
+{% include captioned-image.html url="system_3_3.jpg" description="Fig 6: Water seal testing of system 3 pipe system." style="height: auto; width: auto; max-height: 600px;" %}
 </div>
 
 <div style="text-align: center;">
-{% include captioned-image.html url="system_3_2.jpg" description="Fig 7: Swirl filter made in a plastic bucket with uniseals." style="height: 500px;" %}
+{% include captioned-image.html url="system_3_2.jpg" description="Fig 7: Swirl filter made in a plastic bucket with uniseals." style="height: auto; width: auto; max-height: 600px;" %}
 </div>
 
 <h3 class="section-heading">Issue: pipe fittings</h3>
