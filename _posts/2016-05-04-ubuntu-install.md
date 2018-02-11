@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Ubuntu OS Install
-date: 2016-05-04 00:00:00 -0000
-image: ubuntu-logo14.png
+title: Fresh System Install Guide
+date: 2016-03-04 00:00:00 -0000
+image: Ubuntu_logo.png
 tags: [software]
 ---
 
-I use Ubuntu 16.04 LTS on my laptop, it's the base for what I use on production servers and I think its just a fantastic OS generally. Like any good engineer I appreciate (semi)frequent maintence, so I do a fresh reinstall of my OS and system software every few months. Partly to get rid of packages installed to test things I no longer use and have forgotten about (sorry emscripten), and partly because it makes me feel zen. I decided to make my own guide and host it here so I can access it from my freshly installed OS.
+I use Ubuntu 16.04 LTS on my laptop, it's the base for what I use on production servers and I think its just a fantastic OS generally. Like any good engineer I appreciate (semi)frequent maintence, so I do a fresh reinstall of my OS and system software every few months. Partly to get rid of packages installed to test things I no longer use and have forgotten about (sorry emscripten), and partly because it makes me feel zen. I decided to make my own guide with the bash scripts and host it here so I can access it from my freshly installed OS.
 
 
 <h2 class="section-heading">Steps</h2>
