@@ -3,7 +3,7 @@ layout: post
 title: Python on the ETH Euler HPC Cluster
 date: 2018-02-13 00:00:00 -0000
 image: euler_hpc_jobs.png
-tags: [cybernetics, hardware]
+tags: [software]
 ---
 The [Euler HPC cluster](https://scicomp.ethz.ch/wiki/Euler) is an absolutely amazing resource, for starters it's free to use for all ETH members 
 that have a [nethz account](https://www.isg.inf.ethz.ch/Main/HelpUserAccountsNethzAccount) with zero paperwork.
