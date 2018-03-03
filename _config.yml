@@ -9,23 +9,23 @@ projects_title: Projects and Posts
 
 # User settings
 user_description_appendix: |
-  My main interests are in systems with virtuous feedback loops between: intelligent machines, living things, and their environment. 
-  I'm currently researching how we can make adaptive control systems for heating and cooling of buildings. Feel free to get in contact over email.
+  My main interests are in systems with virtuous feedback loops between intelligent machines, living things, and their environment. 
+  I'm currently researching how we can make adaptive control systems for buildings. Feel free to get in contact over email.
 
 email: tom.stesco@gmail.com
 linkedin: tom-stesco-933204111
 github: tstesco
 angellist: tom-stesco
 
-relevant_tags: ['hardware', 'software', 'cybernetics']
+relevant_tags: ['hardware', 'software', 'cybernetics', 'buildings']
 
-resume_url: https://drive.google.com/file/d/1hMnjbBS-ZNAM8ANPXvm09QvxbUAm6Sf2/view?usp=sharing
+resume_url: https://drive.google.com/file/d/1BentRb8QsLAyaP24D4a6y3ubdfKyuy1D/view?usp=sharing
 
 author: Tom Stesco
-author_title: Integrate Building Systems MSc Candidate, ETH Zürich
+author_title: Integrated Building Systems MSc Candidate, ETH Zürich
 author_photo: profile-photo.jpg
 user_description_short: |
-  Hi! My name is Tom Stesco, I'm an engineer originally from Toronto, Canada. I graduated from University of Waterloo and now live in Zürich, Switzerland pursuing a MSc degree in Integrated Building Systems at ETH.
+  Hi! My name is Tom Stesco, I'm an engineer originally from Toronto, Canada. I graduated from University of Waterloo and now live in Zürich, Switzerland pursuing a MSc degree in Integrated Building Systems at ETH as an [Excellence Scholar](https://www.ethz-foundation.ch/excellence-scholarships/).
 
 ## Disqus
 #disqus_identifier: xxxx

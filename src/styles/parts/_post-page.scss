@@ -45,6 +45,17 @@
       margin-top: 1em;
     }
   }
+  .page-share {
+    a {
+      text-decoration: none;
+      color: $light-gray;
+      margin-left: 10px;
+      font-size: 18px;
+      &:hover {
+        opacity: .8;
+      }
+    }
+  }
 }
 
 
