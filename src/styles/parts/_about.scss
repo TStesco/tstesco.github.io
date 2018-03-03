@@ -5,7 +5,7 @@
 }
 
 .about-container {
-  margin: 5em auto 0;
+  margin: 3em auto 0;
   position: relative;
   text-align: left;
   padding-bottom: 30px;
@@ -19,53 +19,6 @@
   min-width: 300px;
 }
 
-.about-site-header {
-  .author-image-container {
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    overflow: hidden;
-    margin: 0 auto 30px;
-  }
-  .author-name {
-      text-transform: uppercase;
-      font-size: 27px;
-      font-weight: 300;
-      text-align: center;
-      margin: 0.3em 0;
-      color: $dark-purple;
-      text-decoration: none;
-      &:hover {
-      text-decoration: none;
-      }
-    }
-  .contact-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    li {
-      display: inline-block;
-      margin-left: 10px;
-      &:first-child {
-        margin-left: 0;
-      }
-      a {
-        display: block;
-        color: $light-gray;
-        font-size: 21px;
-        text-decoration: none;
-        padding: 5px;
-        transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
-        &:hover {
-          color: $violet;
-          transform: scale(1.1);
-        }
-      }
-    }
-  }
-}
-
 .about-header {
   &:after {
     content: "";
@@ -73,7 +26,7 @@
     height: 1px;
     width: 80px;
     background-color: $dark-purple;
-    margin: 2em auto;
+    margin: 1em auto;
   }
   .author-image-container {
     width: 100px;

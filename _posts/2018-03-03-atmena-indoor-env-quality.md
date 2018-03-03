@@ -7,7 +7,7 @@ tags: [software, hardware, buildings, cybernetics]
 image: atmena_sensors_v1_inside.jpg
 type: project
 ---
-Atmena is an indoor environment quality sensing and analysis system built by [Nathan Woltman][Nathan], [Andrew Gillies][Andrew], [Aayush Rajasekaran][Aayush], and myself for the SE 491 UW capstone course in June 2016. The project idea was to test newly available cheap environmental sensors and connect the good ones to a microcontroller with WLAN, then send the measurements to our web server for processing, storage, and analytics. We could then use the information to benchmark and communicate how to improve indoor environments - as a service. This is a retrospective write up of the project: hardware, firmware, and web service.
+Atmena is an indoor environment quality sensing and analysis system built by [Nathan Woltman][Nathan], [Andrew Gillies][Andrew], [Aayush Rajasekaran][Aayush], and myself for the SE 491 UW capstone course in June 2016. The project idea was to test newly available cheap environmental sensors and connect the good ones to a microcontroller with WLAN, then send the measurements to our web server for processing, storage, and analytics. We could then use the information to benchmark and communicate how to improve indoor environments _as a service_. This is a retrospective write up of the project: hardware, firmware, and web service.
 
 ## Hardware
 
