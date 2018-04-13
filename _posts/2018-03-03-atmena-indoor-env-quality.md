@@ -3,7 +3,7 @@ layout: post
 title: Atmena Indoor Environment Quality System
 date: 2018-03-03 00:00:00 -0000
 github: https://github.com/TStesco
-tags: [software, hardware, buildings, cybernetics]
+tags: [software, hardware, buildings]
 image: atmena_sensors_v1_inside.jpg
 type: project
 ---
