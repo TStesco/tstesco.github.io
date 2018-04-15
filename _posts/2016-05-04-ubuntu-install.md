@@ -6,8 +6,13 @@ image: Ubuntu_logo.png
 tags: [software]
 ---
 
-I use Ubuntu 16.04 LTS on my laptop, it's the base for what I use on production servers and I think its just a fantastic OS generally. Like any good engineer I appreciate (semi)frequent maintence, so I do a fresh reinstall of my OS and system software every few months. Partly to get rid of packages installed to test things I no longer use and have forgotten about (sorry emscripten), and partly because it makes me feel zen. I decided to make my own guide with the bash scripts and host it here so I can access it from my freshly installed OS.
-
+I use Ubuntu 16.04 LTS on my laptop, it's the base for what I use in production 
+and I think its a fantastic OS generally. Like any good engineer I appreciate 
+(semi)frequent maintence, so I do a fresh reinstall of my OS and system software 
+every few months. Partly to get rid of packages installed to test things I no 
+longer use and have forgotten about (sorry emscripten), and partly because it 
+makes me feel zen. I decided to make my own guide with the bash scripts and host 
+it here so I can access it from my freshly installed OS.
 
 <h2 class="section-heading">Steps</h2>
 <ol>
@@ -144,69 +149,75 @@ and recompile schemas:
 ```bash
 sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
 ```
-<h2 class="section-heading">7. Install software</h2>
-<p>
-These are the fundamental applications I use and by no means exhaustive. You can use the new Ubuntu Software application or other services to explore available applications.
-</p>
-<h3 class="heading">Install build-tools and essential libraries</h3>
+# 7. Install and configure software packages
+
+These are my frequently used packages and by no means exhaustive. You can use 
+the new Ubuntu Software application or the interwebs to explore the vast ecosystem 
+of available packages.
+
+## Install build-tools and essential libraries
 
 ```bash
-sudo apt-get install -y build-essential
-sudo apt-get install -y libssl-dev
-sudo apt-get install -y default-jdk
-sudo apt-get install -y curl
-sudo apt-get install -y vim
-sudo apt-get install -y git
-sudo apt-get install -y vlc
-sudo apt-get install -y shutter
-sudo apt-get install -y gimp
-sudo apt-get install -y chromium-browser
+sudo apt-get install -y build-essential libssl-dev default-jdk curl vim git vlc 
+shutter gimp chromium-browser
 ```
 
-<h3 class="heading">Install Sublime Text 3</h3>
-<p>
-Follow package manager instructions <a href="https://www.sublimetext.com/3">here</a>.
-</p>
-<h3 class="heading">Install Anaconda</h3>
-<p>
-Get the latest installer version for your computer and version of Python <a href="https://www.continuum.io/downloads#_unix">here</a>.
-</p>
+## Setup Git
+Setup instructions [here](https://help.github.com/articles/set-up-git/#setting-up-git).
+
+## Install i3wm
+
+Instructions [here](https://i3wm.org/docs/repositories.html). Configuration from
+ ~/.i3 (see DotFiles). To solve issues with nautilus desktop window (if present):
+```
+gsettings set org.gnome.desktop.background show-desktop-icons false
+```
+
+## Install vifm
+
+vifm is a vim-like file manager, lightweight and has great key bindings for navigating,
+ launching .pdf etc., and moving files around. Configuration from ~/.vifm (see DotFiles). 
+
+```bash
+sudo apt-get install vifm
+```
+
+## DotFiles
+
+Clone DotFiles repo and move .config files to user directory: 
+
+```bash
+git clone https://github.com/TStesco/DotFiles.git
+mv DotFiles/* ~/
+```
+
+## Install Sublime Text 3
+
+Follow package manager instructions [here](https://www.sublimetext.com/3). Add 
+the package installer. 
+
+## Install Anaconda
+
+Get the latest installer version for your computer and version of Python 
+[here](https://www.continuum.io/downloads#_unix)
 ```bash
 bash "nameOfFile".sh
 ```
-<h3 class="heading">Install Arduino IDE</h3>
-<p>
-Get the latest distribution at <a href="https://www.arduino.cc/en/Main/Software">arduino.cc</a>. Do not get the IDE from arduino.org, they have an inferior "mock" IDE.
-</p>
-```bash
-sudo tar -xvf arduino-1.6.9-*.tar.xz
-sudo mv arduino-1.6.9 /opt
-cd /opt/arduino-1.6.9
-chmod +x install.sh
-./install.sh
-./arduino
-```
-<h3 class="heading">Setup Git</h3>
-<p>Setup instructions <a href="https://help.github.com/articles/set-up-git/#setting-up-git">here</a>.<br>
-</p>
-<h3 class="heading">Install nvm</h3>
-<p>Node volume manager for node.js and npm. Use install script in the master repo https://github.com/creationix/nvm</p>
-<h3 class="heading">Install Wine</h3>
-<p>
-</p>
+
+## Install Docker
+The community edition is freely available here for all major
+OS: [https://www.docker.com/community-edition](https://www.docker.com/community-edition)
+
+## Install nvm
+Node volume manager for node.js and npm. Use install script in the master repo:
+ [https://github.com/creationix/nvm](https://github.com/creationix/nvm)
+
+## Install Wine
+
 ```bash
 sudo add-apt-repository ppa:ubuntu-wine/ppa
 sudo apt-get update
 sudo apt-get install -y wine1.7
 ```
-<h3 class="heading">Install i3wm</h3>
-<p>
-Instructions <a href="https://i3wm.org/docs/repositories.html">here</a>. Use default configs with alt as mod key.<br>
-To solve issues with nautilus desktop window: <br></p>
-```
-gsettings set org.gnome.desktop.background show-desktop-icons false
-```
 
-<p>
-Additional software packages seldom used: wireshark, nginx 
-</p>
+Additional software packages seldom used: wireshark, nginx, arduino IDE 
