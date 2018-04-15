@@ -81,5 +81,5 @@ If you are interested in the details of the project the [presentation slides][pr
 [report][report] are available in the links.
 
 [Paco]: https://www.linkedin.com/in/paco-bos-7ba828117/
-[report]: https://drive.google.com/drive/folders/1QZSKVM2l--o6v35W2bRK6bWmeqHydX_d
+[report]: https://drive.google.com/open?id=1c5osdJr2Vzt-RngqL5d1hbrBeHf6_R4w
 [presentation]: https://docs.google.com/presentation/d/1WISEld6U7tYirn7_nYzVLSDdw-h7B3-3OlJfVPVOChM/edit?usp=drive_web&ouid=102610751718081878528
