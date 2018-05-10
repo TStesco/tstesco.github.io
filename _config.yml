@@ -25,13 +25,13 @@ author: Tom Stesco
 author_title: Integrated Building Systems MSc Candidate, ETH Zürich
 author_photo: profile-photo.jpg
 user_description_short: |
-  Hi! My name is Tom Stesco, I'm an engineer originally from Toronto, Canada. I graduated from University of Waterloo and now live in Zürich, Switzerland pursuing a MSc degree in Integrated Building Systems at ETH as an [Excellence Scholar](https://www.ethz-foundation.ch/excellence-scholarships/).
+  Hi! My name is Tom Stesco, I'm an engineer originally from Toronto. I graduated from University of Waterloo and now live in Switzerland pursuing a MSc degree in Integrated Building Systems at ETH Zürich as an [Excellence Scholar](https://www.ethz-foundation.ch/excellence-scholarships/).
 
-## Disqus
+## Disqus (commented out to disable)
 #disqus_identifier: xxxx
 
 ## Tracker
-google_analytics_id: xxxxx
+google_analytics_id: UA-119019898-1
 
 keywords: 'software,hardware,engineer,cybernetics,buildings,cities,design,'
 
