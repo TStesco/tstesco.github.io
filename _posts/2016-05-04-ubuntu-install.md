@@ -112,40 +112,11 @@ synclient TouchpadOff=1
 ```
 sudo vim /usr/share/glib-2.0/schemas/com.canonical.unity-greeter.gschema.xml
 ```
-<p>
-	add xml lines:<br><br>
-<textarea rows="20" cols="80" style="border:none;">
-<key name="background" type="s">
-  <default>'/usr/share/backgrounds/milky_way.png'</default>
-  <summary>Background file to use</summary>
-</key>
-<key name="background-color" type="s">
-  <default>'#000000'</default>
-  <summary>Background color, set before wallpaper is seen</summary>
-</key>
-<key name="draw-user-backgrounds" type="b">
-  <default>false</default>
-  <summary>Whether to draw user backgrounds</summary>
-</key>
-<key name="draw-grid" type="b">
-  <default>true</default>
-  <summary>Whether to draw an overlay grid</summary>
-</key>
-<key name="show-hostname" type="b">
-  <default>true</default>
-  <summary>Whether to show the hostname in the menubar</summary>
-</key>
-<key name="logo" type="s">
-  <default>'false'</default>
-  <summary>Logo file to use</summary>
-</key>
-<key name="background-logo" type="s">
-  <default>'false'</default>
-  <summary>Background logo file to use</summary>
-</key>
-</textarea><br>
+
+add xml lines:
+<script src="https://gist.github.com/TStesco/fa1040db415b0bb1c77c567988fa8c59.js"></script>
 and recompile schemas:
-</p>
+
 ```bash
 sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
 ```

@@ -3,7 +3,7 @@ layout: post
 title: EnergyPlusToFMU example with JModelica and PyFMI
 date: 2018-05-10 00:00:00 -0000
 tags: [buildings, software]
-image: fmu_export_variable.png
+image: energyplus-jmodelica.png
 type: project
 ---
 
@@ -68,49 +68,7 @@ The main difficulty I had was making the number of communication points (ncp)
 match up given the final_time. I ran this in JupyterLab (.ipynb) but it should work in 
 ipython or in a .py script.
 
-```python
-import os
-from pymodelica import compile_fmu
-from pyfmi import load_fmu
-import matplotlib.pyplot as plt
-
-# add energyplus cli script to $PATH, not needed if already in $PATH
-os.environ['PATH'] = os.environ['PATH'] +":/opt/EnergyPlus/EnergyPlus-8-9-0"
-
-# load .fmu with pyfmi
-fmu_path = '<path>/_fmu_export_variable.fmu'
-model = load_fmu(fmu=fmu_path)
-
-# change input variable (default in .idf is given to be 6)
-model.set('yShadeFMU', 1)
-
-# get options object
-opts = model.simulate_options()
-
-# set number of communication points dependent on final_time and .idf steps per hour
-final_time = 60*60*72. # 72 hour simulation
-idf_steps_per_hour = 6
-ncp = final_time/(3600./idf_steps_per_hour)
-opts['ncp'] = ncp
-
-# run simulation and return results
-res = model.simulate(start_time=0., final_time=final_time, options=opts)
-print(res.keys()) # show result variables names
-
-# plot results
-fig, ax1 = plt.subplots()
-ax1.plot(res['time'], res['TRoo'], 'b-')
-ax1.set_xlabel('time (s)')
-ax1.set_ylabel('Room Temperature', color='b')
-ax1.tick_params('y', colors='b')
-
-ax2 = ax1.twinx()
-ax2.plot(res['time'], res['ISolExt'], 'r.')
-ax2.set_ylabel('Solar Radiation', color='r')
-ax2.tick_params('y', colors='r')
-fig.tight_layout()
-plt.show()
-```
+<script src="https://gist.github.com/TStesco/d02d19e7e382ab8c37d51c96d7891f6d.js"></script>
 The output chart should look something like this:
 <div style="text-align: center;">
 {% include captioned-image.html url="fmu_export_variable.png" description="Fig 1: 
