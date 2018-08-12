@@ -3,8 +3,17 @@ layout: default-with-header
 title: curriculum vitae
 permalink: /curriculum_vitae/
 ---
-<object data="{{ site.baseurl }}/assets/pdf/tomstesco_cv.pdf" type="application/pdf" width="100%" height="1100px">
-  <iframe src="{{ site.baseurl }}/assets/pdf/tomstesco_cv.pdf" width="100%" height="1100px" style="border: none;">
-    This browser does not support PDFs. Please download the PDF to view it: <a href="{{ site.baseurl }}/assets/pdf/tomstesco_cv.pdf">Download PDF</a>
-  </iframe>
-</object>
+
+
+<div id="pdf-embedded"></div>
+<style>
+.pdfobject-container {
+   width: 100%;
+   height: 1100px;
+}
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.0.201604172/pdfobject.min.js"></script>
+<script>
+  PDFObject.embed("{{ site.baseurl }}/assets/pdf/tomstesco_cv.pdf", "#pdf-embedded");
+</script>
