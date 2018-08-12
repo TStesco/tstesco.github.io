@@ -9,8 +9,9 @@ projects_title: Projects
 
 # User settings
 user_description_appendix: |
-  My main interests are in systems with virtuous feedback loops between intelligent machines, living things, and their environment. 
-  I'm currently researching how we can make adaptive control systems for buildings. Feel free to get in contact over email.
+  My interests are in systems engineering for virtuous feedback loops between smart machines, people, and their environment.
+  I'm currently working on adaptive human-in-the-loop building control to save energy and improve human comfort.
+  If these topics interest you feel free to get in contact over email.
 
 email: tom.stesco@gmail.com
 linkedin: tom-stesco-933204111
@@ -25,7 +26,7 @@ author: Tom Stesco
 author_title: Integrated Building Systems MSc Candidate, ETH Zürich
 author_photo: profile-photo.jpg
 user_description_short: |
-  Hi! I'm Tom Stesco, an engineer originally from Toronto. I graduated from University of Waterloo and now live in Switzerland pursuing a Master’s degree in <a href="http://www.master-buildingsystems.ethz.ch/">Integrated Building Systems</a> at ETH Zürich with the <a href="https://www.ethz-foundation.ch/en/excellence-scholarships/">Excellence Scholarship & Opportunity Programme</a>.
+  Hi! I'm Tom Stesco, I did my undergrad at University of Waterloo and now live in Switzerland pursuing a Master’s degree in <a href="http://www.master-buildingsystems.ethz.ch/">Integrated Building Systems</a> at ETH Zürich with the <a href="https://www.ethz-foundation.ch/en/excellence-scholarships/">Excellence Scholarship & Opportunity Programme</a>.
 
 ## Disqus (commented out to disable)
 #disqus_identifier: xxxx
