@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EnergyPlusToFMU example with JModelica and PyFMI
+title: EnergyPlus Integration with JModelica via PyFMI
 date: 2018-05-10 00:00:00 -0000
 tags: [buildings, software]
 image: energyplus-jmodelica.png
@@ -10,12 +10,12 @@ type: project
 I recently started developing a large-scale building simulation and optimization 
 framework based off the work of the [IEA EBC Annex 60](http://iea-annex60.org/) 
 (now continuing as [IBPSA Project 1](https://ibpsa.github.io/project1/)). 
-This led me to use the 
-[EnergyPlusToFMU](https://github.com/lbl-srg/EnergyPlusToFMU) library to convert 
-an EnergyPlus model from an .idf file into a .fmu [Functional Mock-up Unit](http://fmi-standard.org/).
-I couldn't find much documentation on using [JModelica](https://jmodelica.org/) 
-with [PyFMI](https://jmodelica.org/pyfmi/index.html) with an EnergyPlus FMU so 
-I thought write one up.
+This led me to using 
+[EnergyPlusToFMU](https://github.com/lbl-srg/EnergyPlusToFMU) to convert 
+an EnergyPlus model into a [Functional Mock-up Unit](http://fmi-standard.org/) (FMU).
+I couldn't find any examples using [JModelica](https://jmodelica.org/) 
+and [PyFMI](https://jmodelica.org/pyfmi/index.html) with EnergyPlus so 
+I thought I'd write one.
 
 ### System setup
 
