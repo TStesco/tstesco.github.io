@@ -9,24 +9,32 @@ projects_title: Projects
 
 # User settings
 user_description_appendix: |
-  My interests are in systems engineering for virtuous feedback loops between smart machines, people, and their environment.
-  I'm currently working on adaptive human-in-the-loop building control to save energy and improve human comfort.
+  My interests are in systems engineering for virtuous feedback loops between 
+  smart machines, people, and their environment.
+  I'm currently working on adaptive human-in-the-loop building control using 
+  probabilitstic programming to save energy and improve thermal comfort at the 
+  [Automatic Control Lab](http://control.ee.ethz.ch/) within the 
+  Information Technology and Electrical Engineering ([ITET](https://www.ee.ethz.ch/)) department.
   If these topics interest you feel free to get in contact over email.
 
 email: tom.stesco@gmail.com
-linkedin: tom-stesco-933204111
+linkedin: tomstesco
 github: tstesco
 angellist: tom-stesco
 
 relevant_tags: ['hardware', 'software', 'buildings']
 
-resume_url: https://drive.google.com/file/d/1BentRb8QsLAyaP24D4a6y3ubdfKyuy1D/view?usp=sharing
+resume_url: 
 
 author: Tom Stesco
 author_title: Integrated Building Systems MSc Candidate, ETH Zürich
 author_photo: profile-photo.jpg
 user_description_short: |
-  Hi! I'm Tom Stesco, I did my undergrad at University of Waterloo and now live in Switzerland pursuing a Master’s degree in <a href="http://www.master-buildingsystems.ethz.ch/">Integrated Building Systems</a> at ETH Zürich with the <a href="https://www.ethz-foundation.ch/en/excellence-scholarships/">Excellence Scholarship & Opportunity Programme</a>.
+  I'm an engineering Masters student originally from Canada. I did my undergrad at University of Waterloo and now 
+  live in Switzerland pursuing a Master’s degree in 
+  [Integrated Building Systems](http://www.master-buildingsystems.ethz.ch/)
+  at ETH Zürich with the 
+  [Excellence Scholarship & Opportunity Programme](https://www.ethz-foundation.ch/en/excellence-scholarships/).
 
 ## Disqus (commented out to disable)
 #disqus_identifier: xxxx
