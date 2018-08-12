@@ -15,7 +15,7 @@ This led me to use the
 an EnergyPlus model from an .idf file into a .fmu [Functional Mock-up Unit](http://fmi-standard.org/).
 I couldn't find much documentation on using [JModelica](https://jmodelica.org/) 
 with [PyFMI](https://jmodelica.org/pyfmi/index.html) with an EnergyPlus FMU so 
-I thought I'd document my testing and hopefully help anyone struggling as I was.
+I thought write one up.
 
 ### System setup
 

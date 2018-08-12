@@ -4,7 +4,7 @@ description: Some projects and thoughts on buildings, tech, and our cybernetic l
 
 url: http://tstesco.github.io
 
-about_title: Contact
+about_title: About
 projects_title: Projects
 
 # User settings
@@ -25,7 +25,7 @@ author: Tom Stesco
 author_title: Integrated Building Systems MSc Candidate, ETH Zürich
 author_photo: profile-photo.jpg
 user_description_short: |
-  Hi! My name is Tom Stesco, I’m an engineer originally from Toronto. I graduated from University of Waterloo and now live in Switzerland pursuing a Master’s degree in <a href="http://www.master-buildingsystems.ethz.ch/">Integrated Building Systems</a> at ETH Zürich as part of the <a href="https://www.ethz-foundation.ch/en/excellence-scholarships/">Excellence Scholarship & Opportunity Programme</a>.
+  Hi! I'm Tom Stesco, an engineer originally from Toronto. I graduated from University of Waterloo and now live in Switzerland pursuing a Master’s degree in <a href="http://www.master-buildingsystems.ethz.ch/">Integrated Building Systems</a> at ETH Zürich with the <a href="https://www.ethz-foundation.ch/en/excellence-scholarships/">Excellence Scholarship & Opportunity Programme</a>.
 
 ## Disqus (commented out to disable)
 #disqus_identifier: xxxx
