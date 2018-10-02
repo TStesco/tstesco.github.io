@@ -8,40 +8,54 @@
 
 
 <url>
-  <loc>https://tstesco.github.io/</loc>
+  <loc>https://tomstesco.com/</loc>
   <lastmod>2018-01-17T20:28:27+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://tstesco.github.io/about/</loc>
+  <loc>https://tomstesco.com/about/</loc>
   <lastmod>2018-01-17T20:28:27+00:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://tstesco.github.io/aquaponics-waterloo/</loc>
+  <loc>https://tomstesco.com/aquaponics-waterloo/</loc>
   <lastmod>2018-02-08T20:28:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tstesco.github.io/mars-hydroponics-hydrology/</loc>
+  <loc>https://tomstesco.com/mars-hydroponics-hydrology/</loc>
   <lastmod>2018-02-08T20:28:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tstesco.github.io/hydroponic-tomatoes/</loc>
+  <loc>https://tomstesco.com/hydroponic-tomatoes/</loc>
   <lastmod>2018-02-08T20:28:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tstesco.github.io/ubuntu-install/</loc>
+  <loc>https://tomstesco.com/ubuntu-install/</loc>
   <lastmod>2018-02-08T20:28:27+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.50</priority>
 </url>
 <url>
-  <loc>https://tstesco.github.io/euler-hpc-cluster/</loc>
+  <loc>https://tomstesco.com/euler-hpc-cluster/</loc>
   <lastmod>2018-02-13T20:28:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://tomstesco.com/retrofit-project/</loc>
+  <lastmod>2018-04-13T20:28:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tomstesco.com/energyplus-jmodelica-pyfmi/</loc>
+  <lastmod>2018-05-10T20:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tomstesco.com/occupant-data-platform/</loc>
+  <lastmod>2018-07-07T20:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 </urlset>

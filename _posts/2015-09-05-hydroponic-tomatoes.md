@@ -59,4 +59,4 @@ The last photographs were taken last on day 73 though the system continued to gr
 <strong>1. Autonomous systems require oversight:</strong> A failure warning system would have gone a long way, it's either that or more frequent check-ups.<br><strong>2. Take more pictures:</strong> this is mainly referring to the construction stage but it also would have been nice to have a more recent photograph before the system failed and plants died.
 </p>
 
-[UW Aquaponics Design Team]: https://tstesco.github.io/aquaponics-waterloo/
+[UW Aquaponics Design Team]: https://tomstesco.com/aquaponics-waterloo/
