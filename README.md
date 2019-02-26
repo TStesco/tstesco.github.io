@@ -15,13 +15,14 @@ nvm use v8.0.0
 
 You will need to intall some additional tools:
 ```$bash
-apt-get install ruby-dev
+sudo apt-get install ruby-dev
 npm install gulp -g
+sudo gem install bundler
+bundle install
+npm install
 ```
 
 To run:
 ```$bash
-bundle install
-npm install
 bundle exec gulp
 ```

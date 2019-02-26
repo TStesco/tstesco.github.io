@@ -9,12 +9,7 @@ projects_title: Projects
 
 # User settings
 user_description_appendix: |
-  My interests are in systems engineering for virtuous feedback loops between 
-  smart machines, people, and their environment.
-  I'm currently working on adaptive human-in-the-loop building control using 
-  probabilitstic programming to save energy and improve thermal comfort at the 
-  [Automatic Control Lab](http://control.ee.ethz.ch/) within the 
-  Information Technology and Electrical Engineering ([ITET](https://www.ee.ethz.ch/)) department.
+  I'm currently working at the intersection of building physics simulation, machine learning in control systems, and distributed optimization on edge devices.
   If these topics interest you feel free to get in contact over email.
 
 email: tom.stesco@gmail.com
@@ -27,14 +22,12 @@ relevant_tags: ['hardware', 'software', 'buildings']
 resume_url: 
 
 author: Tom Stesco
-author_title: Integrated Building Systems MSc Candidate, ETH Zürich
+author_title: Data Scientist @ ecobee, Canada
 author_photo: profile-photo-zh.jpg
 user_description_short: |
-  I'm a Master student at ETH Zürich originally from Canada. I did my undergrad at University of Waterloo and now 
-  live in Switzerland pursuing a MSc degree in 
-  [Integrated Building Systems](http://www.master-buildingsystems.ethz.ch/) 
-  with the ETH
-  [Excellence Scholarship & Opportunity Programme](https://www.ethz-foundation.ch/en/excellence-scholarships/).
+  I'm a data scientist and control research engineer at [ecobee](https://www.ecobee.com/), born and living in Toronto Canada.
+  I did my MSc at ETH Zürich in [Integrated Building Systems](http://www.master-buildingsystems.ethz.ch/) after finishing my BASc at University of Waterloo.
+  My overarching interests are in systems engineering for virtuous feedback loops between smart machines, people, and their environment.
 
 ## Disqus (commented out to disable)
 #disqus_identifier: xxxx
