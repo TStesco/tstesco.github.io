@@ -63,22 +63,56 @@ Now intall the Ubuntu Restricted Extras for media codecs (.mp3 etc):
 sudo apt install ubuntu-restricted-extras
 ```
 
-### Disable touchpad with synclient
+#### Disable touchpad with synclient
 
 ```
 sudo apt-get install synclient
 ```
 add this line to .bashrc: `synclient TouchpadOff=1`
 
-### BIOS settings
+#### BIOS settings
 
 Hit F2 to enter BIOS (should already know this) and select the XMP memory profile, enable fast boot, and the other chipset features 
 
-### Remove GRUB boot delay
+#### Remove GRUB boot delay
 
-Edit the grub menu is found at: `/etc/default/grub `.
+Edit the grub config at: `/etc/default/grub `.
 Set GRUB_TIMEOUT=0 to not show the menu and directly boot.
+
+#### Add bugfix Kernel parameters
+
+Edit the grub config: `/etc/default/grub `. 
+See [here](https://wiki.archlinux.org/index.php/kernel_parameters) how to edit your GRUB .
+Then start with and add cumulatively to:
+
+```
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+```
+
+##### Disable GPE
+
+Known bug in Intel chips running Linux: [https://bugzilla.kernel.org/show_bug.cgi?id=117481#c23](https://bugzilla.kernel.org/show_bug.cgi?id=117481#c23). 
+For fix info see [here](https://superuser.com/questions/1117992/acpi-exception-ae-not-found-while-evaluating-gpe-method-floods-syslog).
+
+```
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_block_gpe=0x6F"
+```
+
+
+##### Disable dynamic USB power management in kernel
+
+https://askubuntu.com/questions/1044872/ubuntu-16-04-kworker-using-high-cpu-constantly
+https://www.kernel.org/doc/Documentation/usb/power-management.txt
+
+```
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_block_gpe=0x6F usbcore.autosuspend=-1"
+```
+
+##### regenerate GRUB
+
 Run `sudo update-grub` to regenerate `/boot/grub/grub.cfg` based on the `/etc/default/grub` settings.
+This can also be done with `sudo grub-mkconfig -o /boot/grub/grub.cfg`.
+
 
 ## 7. Install and configure software packages
 
