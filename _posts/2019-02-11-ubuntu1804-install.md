@@ -6,6 +6,8 @@ image: ubuntu-1804.png
 tags: [software]
 ---
 
+# POOP
+
 I use Ubuntu 18.04 LTS on my laptop its a fantastic OS for general use. 
 Like any good engineer I appreciate (semi)frequent maintenance, so I do a fresh reinstall of my OS and system software 
 every few months. I made my own guide with the bash scripts and host it here so I can access it from my freshly installed OS.
