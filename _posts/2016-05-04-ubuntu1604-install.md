@@ -6,13 +6,7 @@ image: Ubuntu_1404_trusty_Tahr.jpeg
 tags: [software]
 ---
 
-I use Ubuntu 16.04 LTS on my laptop, it's the base for what I use in production 
-and I think its a fantastic OS generally. Like any good engineer I appreciate 
-(semi)frequent maintenance, so I do a fresh reinstall of my OS and system software 
-every few months. Partly to get rid of packages installed to test things I no 
-longer use and have forgotten about (sorry emscripten), and partly because it 
-makes me feel zen. I decided to make my own guide with the bash scripts and host 
-it here so I can access it from my freshly installed OS.
+Ubuntu 16.04 LTS is a fine OS (now would recommend 18.04). Here is a guide for installing it from scratch and customizing it well.
 
 <h2 class="section-heading">Steps</h2>
 <ol>

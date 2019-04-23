@@ -6,11 +6,7 @@ image: ubuntu-1804.png
 tags: [software]
 ---
 
-# POOP
-
-I use Ubuntu 18.04 LTS on my laptop its a fantastic OS for general use. 
-Like any good engineer I appreciate (semi)frequent maintenance, so I do a fresh reinstall of my OS and system software 
-every few months. I made my own guide with the bash scripts and host it here so I can access it from my freshly installed OS.
+Ubuntu 18.04 LTS is a fantastic OS for general use. Here is a guide with the shell commands for installing it and customizing it.
 
 # Steps
 <ol>
@@ -44,7 +40,7 @@ The proposed fix did work for me:
 1. Disable Fast Boot and Secure Boot (or Secure loader).
 2. Plug in the bootable USB with the Linux distro (mine was Ubuntu 18.04)
 3. When you see the loader to "Install Ubuntu" etc ... press "e" and edit a line: Replace "quiet splash" to "nomodeset" and press F10 to boot. Then after the installation is complete, you will have to reboot. 
-4. This time you will now encounter the GRUB. Again, press "e" and edit a line: In the line that starts with "linux", add "nouveau.modeset=0" at the end of that line.
+4. This time you will now encounter the GRUB. Again, press "e" and edit a line: In the line that starts with "linux", add `nouveau.modeset=0` at the end of that line.
 
 ## 5. Install OS
 
@@ -128,7 +124,7 @@ sudo apt-get install -y build-essential libssl-dev default-jdk curl vim git vlc
 shutter gimp firefox vifm
 ```
 
-### Setup Git
+### Install Git
 Setup instructions [here](https://help.github.com/articles/set-up-git/#setting-up-git).
 
 ### Install i3wm
@@ -138,9 +134,16 @@ Instructions [here](https://i3wm.org/docs/repositories.html). Configuration from
 gsettings set org.gnome.desktop.background show-desktop-icons false
 ```
 
+### tmuxinator
+
+```bash
+sudo apt-get install tmux
+sudo gem install tmuxinator
+```
 ### DotFiles
 
-Clone [DotFiles repo](https://github.com/TStesco/DotFiles) and move .config files to user directory using rsync script: 
+Clone [DotFiles repo](https://github.com/TStesco/DotFiles) and move .config files to user directory using the rsync script.
+I added the rsync script so that I could keep my dot files in a central repository and move them to their desired location.
 
 ```bash
 git clone https://github.com/TStesco/DotFiles.git
@@ -154,12 +157,7 @@ Now do a reboot and log in with i3.
 Open default terminal which should be set in dotfiles (UXTerm). Select preferences 
 as desired. I like to have the menu bar be hidden and use custom colours.
 
-### tmuxinator
 
-```bash
-sudo apt-get install tmux
-sudo gem install tmuxinator
-```
 
 Add the bash completion from: https://github.com/tmuxinator/tmuxinator/blob/master/completion/tmuxinator.bash
 
@@ -171,10 +169,7 @@ the package installer.
 ### Install Anaconda
 
 Get the latest installer version for your computer and version of Python 
-[here](https://www.continuum.io/downloads#_unix)
-```bash
-bash "nameOfFile".sh
-  ```
+[here](https://www.continuum.io/downloads#_unix) and run it with bash.
 
 ### Install Docker
 The community edition is freely available here for all major
