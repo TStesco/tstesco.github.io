@@ -27,6 +27,11 @@
           <li class="angellist"><a href="http://angel.co/{{site.angellist}}" target="_blank"><i class="fa fa-angellist"></i></a></li>
           {% else %}
           {% endif %}
+
+          {% if site.resume %}
+          <li class="resume"><a href="{{ site.baseurl }}/assets/pdf/{{ site.resume }}" target="_blank"><i class="fa fa-id-card-o"></i></a></li>
+          {% else %}
+          {% endif %}
         </ul>
       </section>
       <div class="right-header-container">

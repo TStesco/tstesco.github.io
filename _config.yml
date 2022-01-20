@@ -16,18 +16,19 @@ email: tom.stesco@gmail.com
 linkedin: tomstesco
 github: tstesco
 angellist: tom-stesco
+resume: tom_stesco_resume.pdf
 
 relevant_tags: ['hardware', 'software', 'buildings']
 
 resume_url: 
 
 author: Tom Stesco
-author_title: Data Scientist @ ecobee
+author_title: Senior Data Scientist @ ecobee
 author_photo: profile-photo-zh.jpg
 user_description_short: |
-  I'm a data scientist and control research engineer at [ecobee](https://www.ecobee.com/), born and living in Toronto Canada.
-  I did my MSc at ETH Zürich in [Integrated Building Systems](http://www.master-buildingsystems.ethz.ch/) after finishing my BASc at University of Waterloo.
-  My overarching interests are in systems engineering for virtuous feedback loops between smart machines, people, and their environment.
+  I'm a senior data scientist at [ecobee](https://www.ecobee.com/), living in Toronto Canada.
+  I went to school at ETH Zürich (MSc) and University of Waterloo (BASc).
+  My interests are in systems engineering for virtuous feedback loops between learning machines, people, and their environment.
 
 ## Disqus (commented out to disable)
 #disqus_identifier: xxxx
