@@ -29,6 +29,8 @@ user_description_short: |
   I went to school at ETH Zürich (MSc) and University of Waterloo (BASc).
   My interests are in systems engineering for virtuous feedback loops between learning machines, people, and their environment.
 
+highlighter: pygments.rb
+markdown: kramdown
 ## Disqus (commented out to disable)
 #disqus_identifier: xxxx
 
