@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Louis Rassaby",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "author": "Thomas Stesco",
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.18.6",
