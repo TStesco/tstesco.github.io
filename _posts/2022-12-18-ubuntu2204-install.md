@@ -29,7 +29,7 @@ It may seem obvious but its worthwhile to actually test that your most important
 ## 3. Make boot USB thumb drive with OS image
 
 You can use any thumb drive with 4GB or more storage. See official tutorial on 
-how to do this [here](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu).
+how to do this [here](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu){:target="_blank"}.
 
 ## 4. Boot from thumb drive
 
@@ -100,7 +100,7 @@ sudo apt install -y curl vim git vlc shutter gimp firefox tmux
 ```
 
 ### Setup Git
-Setup instructions [here](https://help.github.com/articles/set-up-git/#setting-up-git).
+Setup instructions [here](https://help.github.com/articles/set-up-git/#setting-up-git){:target="_blank"}.
 
 ### Install VS Code
 
@@ -108,7 +108,7 @@ See instructions at https://code.visualstudio.com/docs/setup/linux
 
 ### DotFiles
 
-Clone [DotFiles repo](https://github.com/TStesco/DotFiles) and follow directions in README.md.
+Clone [DotFiles repo](https://github.com/TStesco/DotFiles){:target="_blank"} and follow directions in README.md.
 
 ```bash
 git clone https://github.com/TStesco/DotFiles.git
@@ -121,9 +121,9 @@ Get the latest installer version for your computer and version of Python
 
 ### Install Docker
 The community edition is freely available here for all major
-OS: [https://www.docker.com/community-edition](https://www.docker.com/community-edition)
+OS: [https://www.docker.com/community-edition](https://www.docker.com/community-edition){:target="_blank"}
 
 ### Install nvm
 Node volume manager for node.js and npm. Use install script in the master repo:
- [https://github.com/creationix/nvm](https://github.com/creationix/nvm)
+ [https://github.com/creationix/nvm](https://github.com/creationix/nvm){:target="_blank"}
 
