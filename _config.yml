@@ -22,12 +22,13 @@ relevant_tags: ['hardware', 'software', 'buildings']
 resume_url: 
 
 author: Tom Stesco
-author_title: Senior Data Scientist @ ecobee
+author_title: Senior AI/ML Engineer @ BCG X
+
 author_photo: profile-photo-zh.jpg
 user_description_short: |
-  I'm a senior data scientist at [ecobee](https://www.ecobee.com/), living in Toronto Canada.
+  I'm a Senior AI/ML Engineer at [BCG X](https://www.bcg.com/x){:target="_blank"}, living in Toronto Canada.
   I went to school at ETH Zürich (MSc) and University of Waterloo (BASc).
-  My interests are in systems engineering for virtuous feedback loops between learning machines, people, and their environment.
+  My interests are in AI/ML for virtuous feedback between machines, people, and their environment.
 
 highlighter: pygments.rb
 markdown: kramdown
@@ -37,7 +38,7 @@ markdown: kramdown
 ## Tracker
 google_analytics_id: UA-119019898-1
 
-keywords: 'software,hardware,engineer,cybernetics,buildings,cities,design,'
+keywords: 'software,hardware,engineer,AI,ML,machine learning,cybernetics,buildings,cities,design,'
 
 ## URLs
 permalink: ':title/'
