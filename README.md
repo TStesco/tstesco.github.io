@@ -1,6 +1,6 @@
 # Tom Stesco - personal projects website
 
-Personal website and blog built using Jekyll and hosted on github-pages, [visit the site here](https://tomstesco.com).
+Personal website and blog built using Jekyll and hosted on github-pages, [visit the site here](https://www.tomstesco.com).
 
 Tested with:
 - Node v8.0.0
