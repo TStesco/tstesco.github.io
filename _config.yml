@@ -1,6 +1,6 @@
 # Site settings
 title: Tom Stesco
-description: Projects and thoughts on buildings, tech, and our cybernetic lives.
+description: Projects and thoughts on buildings, AI/ML tech, and our cybernetic lives.
 
 url: https://tomstesco.com
 
@@ -9,7 +9,7 @@ projects_title: Projects
 
 # User settings
 user_description_appendix: |
-  I’m currently trying to understand how AI models (née transformers) scaling with combined hardware + algorithmic advances transforms different application domains, and the software infrastructure enabling them to work reliably.
+  I’m focused on how combined AI hardware and algorithmic advances are transforming industries, and the required engineering for it to work reliably.
   If these topics interest you feel free to get in contact over [email](mailto:tom.stesco@gmail.com) or [LinkedIn](https://www.linkedin.com/in/tomstesco/).
 
 email: tom.stesco@gmail.com
@@ -26,10 +26,11 @@ author_title: Senior Staff Field Application Engineer, AI/ML software @ Tenstorr
 
 author_photo: headshot_2024_compressed.jpg
 user_description_short: |
-  I’m working at [Tenstorrent](https://www.tenstorrent.com), an AI hardware company that cares about customers owning their silicon and software, as a Senior Staff Field Application Engineer specializing in AI/ML software.
-  I went to school at ETH Zürich (MS) and University of Waterloo (BASc).
-  My interests are in virtuous feedback between machines, people, and their environment (or put differently, exploring cities).
-
+  I’m currently a Senior Staff Field Application Engineer at [Tenstorrent](https://www.tenstorrent.com), a company that builds AI computers for customers that care about owning their future.
+  I build customer-facing application software and support customers in running their business on Tenstorrent hardware.
+  I earned an MSc from ETH Zürich and a BASc from the University of Waterloo.
+  My interests are in virtuous feedback between machines, people, and their environment.  
+  
 highlighter: pygments.rb
 markdown: kramdown
 ## Disqus (commented out to disable)
