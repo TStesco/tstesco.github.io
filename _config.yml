@@ -15,7 +15,7 @@ user_description_appendix: |
 email: tom.stesco@gmail.com
 linkedin: tomstesco
 github: tstesco
-resume: tstesco_resume_2025_05_10.pdf
+resume: tstesco_resume_2026_04_07.pdf
 
 relevant_tags: ['hardware', 'software', 'buildings']
 
@@ -26,9 +26,9 @@ author_title: Senior Staff Field Application Engineer, AI/ML software @ Tenstorr
 
 author_photo: headshot_2024_compressed.jpg
 user_description_short: |
-  I’m currently a Senior Staff Field Application Engineer at [Tenstorrent](https://www.tenstorrent.com), a company that builds AI computers for customers that care about owning their future.
-  I build customer-facing application software and support customers in running their business on Tenstorrent hardware.
-  I earned an MSc from ETH Zürich and a BASc from the University of Waterloo.
+  I’m currently a Senior Staff Field Application Engineer at [Tenstorrent](https://www.tenstorrent.com), a company that builds AI computers for an [open future](https://openfuture.tenstorrent.com/).
+  I build LLM inference software and AI applications that consume inference.
+  I have an MSc from ETH Zürich and a BASc from the University of Waterloo.
   My interests are in virtuous feedback between machines, people, and their environment.  
   
 highlighter: pygments.rb
