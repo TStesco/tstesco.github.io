@@ -22,14 +22,14 @@ relevant_tags: ['hardware', 'software', 'buildings']
 resume_url: 
 
 author: Tom Stesco
-author_title: Senior Staff Field Application Engineer, AI/ML software @ Tenstorrent
+author_title: Senior Staff Engineer, Machine Learning Field Applications @ Tenstorrent
 
 author_photo: headshot_2024_compressed.jpg
 user_description_short: |
-  I’m currently a Senior Staff Field Application Engineer at [Tenstorrent](https://www.tenstorrent.com), a company that builds AI computers for an [open future](https://openfuture.tenstorrent.com/).
-  I build LLM inference software and AI applications that consume inference.
+  I’m currently a Senior Staff Engineer focusing on Machine Learning Applications at [Tenstorrent](https://www.tenstorrent.com), a company that builds AI computers for an [open future](https://openfuture.tenstorrent.com/).
+  I build accelerated LLM inference serving and deployment software and AI applications that consume inference.
   I have an MSc from ETH Zürich and a BASc from the University of Waterloo.
-  My interests are in virtuous feedback between machines, people, and their environment.  
+  My interests are in virtuous feedback between machines, people, and their environment.
   
 highlighter: pygments.rb
 markdown: kramdown
